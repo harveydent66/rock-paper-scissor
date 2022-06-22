@@ -4,7 +4,7 @@ Created on Fri Dec 10 21:43:02 2021
 
 @author: hp
 """
-
+import streamlit as st
 import random
 choices = ["Rock", "Paper", "Scissors"]
 computer = random.choice(choices)
